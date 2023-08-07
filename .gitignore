@@ -11,8 +11,8 @@ BlockadeSimulation/like_in_article/strong_drive/strong_drive_data.npz
 /BlockadeSimulation/our_setup/protocol/advanced_protocol_data.qu
 /BlockadeSimulation/our_setup/strong_drive/strong_drive_data.qu
 /BlockadeSimulation/our_setup/weak_drive/weak_drive_data.npz
-/BlockadeSimulation/protocol/protocol_data.qu
-/BlockadeSimulation/protocol/protocol_data1.qu
+/BlockadeSimulation/protocol_first_try/protocol_data.qu
+/BlockadeSimulation/protocol_first_try/protocol_data1.qu
 /BlockadeSimulation/transmittance/transmittance_data.npy
 /BlockadeSimulation/displaced_frame_states.qu
 /BlockadeSimulation/our_setup/weak_drive/critical_damping_simulation/weak_drive_data_0.01.npz

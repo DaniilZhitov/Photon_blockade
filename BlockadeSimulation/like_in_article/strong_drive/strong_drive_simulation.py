@@ -73,10 +73,16 @@ def plot_state_wigner(state):
 file = np.load('article_strong_drive_data.npz', allow_pickle=True)
 drives = file['dLs']
 results = file['results']
+
 for dL, result in zip(drives, results):
-    state = result.states[8]
-    print(expect(num(N),state))
-    plot_state_wigner(state)
+    if not (dL == 0.01):
+        continue
+    state = result.states[80]
+    print(expect(num(N), state))
+    #plot_state_wigner(state)
+    qutip.visualization.matrix_histogram_complex(state.extract_states([0,1,2,3]))
+   # plt.savefig("state_at_0.8kt_histogram.png")
+    plt.show()
     break
 
     #mean_n = expect(num(N), result.states)

@@ -54,4 +54,20 @@ def plot_coherence():
     plt.savefig('plot_coherence.png')
 #simulate()
 #plot_occupation()
-plot_coherence()
+#plot_coherence()
+file = np.load('weak_drive_data.npz', allow_pickle=True)
+drives = file['drives']
+results = file['results']
+for drive, result in zip(drives, results):
+    if drive != 0.33:
+        continue
+    state = result.states[800]
+    print(expect(num(N), state))
+    #plot_state_wigner(state)
+    qutip.visualization.matrix_histogram_complex(state.extract_states([0,1,2,3]))
+   # plt.savefig("state_at_0.8kt_histogram.png")
+    plt.show()
+    break
+
+    #mean_n = expect(num(N), result.states)
+    #plt.plot(kappa_total * times, mean_n, label=r'$\delta\lambda_1=$' + str(dL))

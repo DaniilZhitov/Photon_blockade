@@ -119,7 +119,7 @@ plt.savefig('200_very_advanced_plot_Fock.png')
 plot_state_wigner(state12)
 #fig, ax = plt.subplots()
 #plt.show()
-#fig, ax = qutip.visualization.matrix_histogram(final_state.extract_states([0,1,2,3]))
+#fig, ax = qutip.visualization.matrix_histogram_complex(final_state.extract_states([0,1,2,3]))
 #plt.show()
 
 #plt.xlim(-0.5,10)

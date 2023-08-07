@@ -109,7 +109,7 @@ final_state = result.states[len(result.states)-1]
 plot_trajectory()
 fig, ax = plt.subplots()
 plot_fock_distribution(final_state, fig=fig, ax=ax, title='Final state population')
-fig, ax = qutip.visualization.matrix_histogram(final_state.extract_states([0,1,2,3]))
+fig, ax = qutip.visualization.matrix_histogram_complex(final_state.extract_states([0,1,2,3]))
 plot_state_wigner(final_state)
 a = destroy(N)
 print('g_2 = ' + str(expect(a.dag()**2 * a**2, final_state) / expect(num(N), final_state)**2))
