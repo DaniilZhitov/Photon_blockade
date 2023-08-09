@@ -1,23 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c596931-b2db-4122-8032-56089d06e328" name="Changes" comment="First commit">
-      <change afterPath="$PROJECT_DIR$/BasicIntro/rabi_oscillation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BlockadeSimulation/like_in_article/strong_drive/state_at_0.8kt_histogram.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="2c596931-b2db-4122-8032-56089d06e328" name="Changes" comment="Some exploration of Rabi behaviour. Fixed tomography that was showing only Re(rho).">
+      <change afterPath="$PROJECT_DIR$/BasicIntro/TLS_negativity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BasicIntro/leaky_cavity.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicIntro/leaky_cavity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlockadeSimulation/like_in_article/strong_drive/WN_state_at_0.8kt.png" beforeDir="false" afterPath="$PROJECT_DIR$/BlockadeSimulation/like_in_article/strong_drive/state_at_0.8kt_wigner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlockadeSimulation/like_in_article/strong_drive/strong_drive_simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlockadeSimulation/like_in_article/strong_drive/strong_drive_simulation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlockadeSimulation/like_in_article/weak_drive/two_photon_plotcoherence.png" beforeDir="false" afterPath="$PROJECT_DIR$/BlockadeSimulation/like_in_article/weak_drive/two_photon_plot_coherence.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlockadeSimulation/like_in_article/weak_drive/two_photon_plotoccupation.png" beforeDir="false" afterPath="$PROJECT_DIR$/BlockadeSimulation/like_in_article/weak_drive/two_photon_plot_occupation.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlockadeSimulation/like_in_article/weak_drive/weak_drive_simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlockadeSimulation/like_in_article/weak_drive/weak_drive_simulation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlockadeSimulation/our_setup/protocol/protocol_simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlockadeSimulation/our_setup/protocol/protocol_simulation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlockadeSimulation/protocol/after_step1.png" beforeDir="false" afterPath="$PROJECT_DIR$/BlockadeSimulation/protocol_first_try/after_step1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlockadeSimulation/protocol/blockade_population.png" beforeDir="false" afterPath="$PROJECT_DIR$/BlockadeSimulation/protocol_first_try/blockade_population.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlockadeSimulation/protocol/protocol_simulation.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlockadeSimulation/protocol_first_try/protocol_simulation.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlockadeSimulation/protocol/trajectory.png" beforeDir="false" afterPath="$PROJECT_DIR$/BlockadeSimulation/protocol_first_try/trajectory.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlockadeSimulation/protocol/trajectory1.png" beforeDir="false" afterPath="$PROJECT_DIR$/BlockadeSimulation/protocol_first_try/trajectory1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BasicIntro/rabi_oscillation.py" beforeDir="false" afterPath="$PROJECT_DIR$/BasicIntro/rabi_oscillation.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +61,28 @@
       <recent name="$PROJECT_DIR$/BlockadeSimulation/deprecated" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.calculate_drives">
+  <component name="RunManager" selected="Python.TLS_negativity">
+    <configuration name="TLS_negativity" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Qutip_sandbox" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BasicIntro" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BasicIntro/TLS_negativity.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="calculate_drives" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Qutip_sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="leaky_cavity" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="decay_rate" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Qutip_sandbox" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -108,7 +116,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BasicIntro/leaky_cavity.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BasicIntro/decay_rate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,27 +138,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BasicIntro/rabi_oscillation.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="strong_drive_simulation" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Qutip_sandbox" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/BlockadeSimulation/like_in_article/strong_drive" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BlockadeSimulation/like_in_article/strong_drive/strong_drive_simulation.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -182,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TLS_negativity" />
+        <item itemvalue="Python.rabi_oscillation" />
+        <item itemvalue="Python.decay_rate" />
         <item itemvalue="Python.calculate_drives" />
         <item itemvalue="Python.weak_drive_simulation" />
-        <item itemvalue="Python.strong_drive_simulation" />
-        <item itemvalue="Python.rabi_oscillation" />
-        <item itemvalue="Python.leaky_cavity" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691170545879</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Some exploration of Rabi behaviour. Fixed tomography that was showing only Re(rho).">
+      <created>1691433355865</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691433355866</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,17 +245,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Second commit" />
     <MESSAGE value="First commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/BasicIntro/rabi_oscillation.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Some exploration of Rabi behaviour. Fixed tomography that was showing only Re(rho)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Some exploration of Rabi behaviour. Fixed tomography that was showing only Re(rho)." />
   </component>
 </project>
